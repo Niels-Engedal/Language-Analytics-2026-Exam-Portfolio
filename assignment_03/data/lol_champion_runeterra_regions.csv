@@ -1,0 +1,168 @@
+champion_key,champion_id,champion_name,runeterra_region,region_notes
+266,Aatrox,Aatrox,Shurima,Darkin; ancient Shuriman Ascended
+103,Ahri,Ahri,Ionia,
+84,Akali,Akali,Ionia,
+166,Akshan,Akshan,Shurima,
+12,Alistar,Alistar,Noxus,Often treated as Noxus-affiliated in lore datasets
+32,Amumu,Amumu,Shurima,
+34,Anivia,Anivia,Freljord,
+1,Annie,Annie,Noxus,
+523,Aphelios,Aphelios,Targon,
+22,Ashe,Ashe,Freljord,
+136,AurelionSol,Aurelion Sol,Targon,Celestial tied to Targon
+893,Aurora,Aurora,Freljord,
+268,Azir,Azir,Shurima,
+432,Bard,Bard,Runeterra,Cosmic wanderer / unaffiliated
+200,Belveth,Bel'Veth,The Void,
+53,Blitzcrank,Blitzcrank,Zaun,
+63,Brand,Brand,Freljord,Keegan Rodhe; often grouped under Freljord
+201,Braum,Braum,Freljord,
+233,Briar,Briar,Noxus,
+51,Caitlyn,Caitlyn,Piltover,
+164,Camille,Camille,Piltover,Clan Ferros
+69,Cassiopeia,Cassiopeia,Noxus,
+31,Chogath,Cho'Gath,The Void,
+42,Corki,Corki,Bandle City,
+122,Darius,Darius,Noxus,
+131,Diana,Diana,Targon,
+36,DrMundo,Dr. Mundo,Zaun,
+119,Draven,Draven,Noxus,
+245,Ekko,Ekko,Zaun,
+60,Elise,Elise,Noxus,Black Rose / Shadow Isles ties
+28,Evelynn,Evelynn,Runeterra,Demon / unaffiliated
+81,Ezreal,Ezreal,Piltover,
+9,Fiddlesticks,Fiddlesticks,Runeterra,Primal demon / unaffiliated
+114,Fiora,Fiora,Demacia,
+105,Fizz,Fizz,Bilgewater,
+3,Galio,Galio,Demacia,
+41,Gangplank,Gangplank,Bilgewater,
+86,Garen,Garen,Demacia,
+150,Gnar,Gnar,Freljord,
+79,Gragas,Gragas,Freljord,
+104,Graves,Graves,Bilgewater,
+887,Gwen,Gwen,Shadow Isles,Camavoran origin but Shadow Isles-associated
+120,Hecarim,Hecarim,Shadow Isles,
+74,Heimerdinger,Heimerdinger,Piltover,Bandle yordle resident of Piltover
+910,Hwei,Hwei,Ionia,
+420,Illaoi,Illaoi,Bilgewater,
+39,Irelia,Irelia,Ionia,
+427,Ivern,Ivern,Ionia,
+40,Janna,Janna,Zaun,
+59,JarvanIV,Jarvan IV,Demacia,
+24,Jax,Jax,Runeterra,Icathian / often listed as unaffiliated
+126,Jayce,Jayce,Piltover,
+202,Jhin,Jhin,Ionia,
+222,Jinx,Jinx,Zaun,
+897,KSante,K'Sante,Shurima,
+145,Kaisa,Kai'Sa,Shurima,
+429,Kalista,Kalista,Shadow Isles,Camavoran origin but Shadow Isles-associated
+43,Karma,Karma,Ionia,
+30,Karthus,Karthus,Shadow Isles,
+38,Kassadin,Kassadin,Shurima,
+55,Katarina,Katarina,Noxus,
+10,Kayle,Kayle,Demacia,Targonian origin; usually grouped with Demacia
+141,Kayn,Kayn,Ionia,
+85,Kennen,Kennen,Ionia,Kinkou order
+121,Khazix,Kha'Zix,The Void,
+203,Kindred,Kindred,Runeterra,Spirit/entity known across all regions
+240,Kled,Kled,Noxus,
+96,KogMaw,Kog'Maw,The Void,
+7,Leblanc,LeBlanc,Noxus,
+64,LeeSin,Lee Sin,Ionia,
+89,Leona,Leona,Targon,
+876,Lillia,Lillia,Ionia,
+127,Lissandra,Lissandra,Freljord,
+236,Lucian,Lucian,Demacia,
+117,Lulu,Lulu,Bandle City,
+99,Lux,Lux,Demacia,
+54,Malphite,Malphite,Ixtal,
+90,Malzahar,Malzahar,Shurima,
+57,Maokai,Maokai,Shadow Isles,
+11,MasterYi,Master Yi,Ionia,
+902,Milio,Milio,Ixtal,
+21,MissFortune,Miss Fortune,Bilgewater,
+82,Mordekaiser,Mordekaiser,Noxus,
+25,Morgana,Morgana,Demacia,Targonian origin; usually grouped with Demacia
+950,Naafiri,Naafiri,Shurima,Darkin
+267,Nami,Nami,Targon,Marai / seas west of Targon
+75,Nasus,Nasus,Shurima,
+111,Nautilus,Nautilus,Bilgewater,
+518,Neeko,Neeko,Ixtal,
+76,Nidalee,Nidalee,Ixtal,
+895,Nilah,Nilah,Bilgewater,Often grouped with Bilgewater in region lists
+56,Nocturne,Nocturne,Runeterra,Demon / unaffiliated
+20,Nunu,Nunu & Willump,Freljord,
+2,Olaf,Olaf,Freljord,
+61,Orianna,Orianna,Piltover,Piltover/Zaun ties; usually grouped with Piltover
+516,Ornn,Ornn,Freljord,
+80,Pantheon,Pantheon,Targon,
+78,Poppy,Poppy,Demacia,
+555,Pyke,Pyke,Bilgewater,
+246,Qiyana,Qiyana,Ixtal,
+133,Quinn,Quinn,Demacia,
+497,Rakan,Rakan,Ionia,
+33,Rammus,Rammus,Shurima,
+526,Rell,Rell,Noxus,
+888,Renata,Renata Glasc,Zaun,
+58,Renekton,Renekton,Shurima,
+107,Rengar,Rengar,Ixtal,
+92,Riven,Riven,Noxus,
+68,Rumble,Rumble,Bandle City,
+13,Ryze,Ryze,Runeterra,World-rune wanderer / unaffiliated
+360,Samira,Samira,Noxus,
+113,Sejuani,Sejuani,Freljord,
+235,Senna,Senna,Demacia,"Shadow Isles ties, but Demacian-origin lists are common"
+147,Seraphine,Seraphine,Piltover,Zaun/Piltover ties; usually grouped with Piltover
+875,Sett,Sett,Ionia,
+35,Shaco,Shaco,Runeterra,Unclear / unaffiliated
+98,Shen,Shen,Ionia,
+102,Shyvana,Shyvana,Demacia,
+27,Singed,Singed,Zaun,
+14,Sion,Sion,Noxus,
+15,Sivir,Sivir,Shurima,
+72,Skarner,Skarner,Ixtal,Post-VGU lore
+901,Smolder,Smolder,Runeterra,Camavoran dragon prince; not in core official region set
+37,Sona,Sona,Demacia,"Ionian birth, Demacian upbringing"
+16,Soraka,Soraka,Targon,Celestial tied to Targon
+50,Swain,Swain,Noxus,
+517,Sylas,Sylas,Demacia,
+134,Syndra,Syndra,Ionia,
+223,TahmKench,Tahm Kench,Bilgewater,Often grouped with Bilgewater in community region lists
+163,Taliyah,Taliyah,Shurima,
+91,Talon,Talon,Noxus,
+44,Taric,Taric,Targon,
+17,Teemo,Teemo,Bandle City,
+412,Thresh,Thresh,Shadow Isles,
+18,Tristana,Tristana,Bandle City,
+48,Trundle,Trundle,Freljord,
+23,Tryndamere,Tryndamere,Freljord,
+4,TwistedFate,Twisted Fate,Bilgewater,
+29,Twitch,Twitch,Zaun,
+77,Udyr,Udyr,Freljord,
+6,Urgot,Urgot,Zaun,"Noxian origin, Zaun-affiliated in most current lists"
+110,Varus,Varus,Ionia,Darkin currently bound there
+67,Vayne,Vayne,Demacia,
+45,Veigar,Veigar,Runeterra,"Bandle yordle, but often treated as unaffiliated"
+161,Velkoz,Vel'Koz,The Void,
+711,Vex,Vex,Shadow Isles,
+254,Vi,Vi,Zaun,
+234,Viego,Viego,Shadow Isles,Camavoran origin but Shadow Isles-associated
+112,Viktor,Viktor,Zaun,
+8,Vladimir,Vladimir,Noxus,
+106,Volibear,Volibear,Freljord,
+19,Warwick,Warwick,Zaun,
+62,MonkeyKing,Wukong,Ionia,
+498,Xayah,Xayah,Ionia,
+101,Xerath,Xerath,Shurima,
+5,XinZhao,Xin Zhao,Demacia,
+157,Yasuo,Yasuo,Ionia,
+777,Yone,Yone,Ionia,
+83,Yorick,Yorick,Shadow Isles,
+350,Yuumi,Yuumi,Bandle City,
+154,Zac,Zac,Zaun,
+238,Zed,Zed,Ionia,
+221,Zeri,Zeri,Zaun,
+115,Ziggs,Ziggs,Zaun,Bandle yordle resident of Zaun
+26,Zilean,Zilean,Shurima,Icathia / Shurima-region grouping
+142,Zoe,Zoe,Targon,
+143,Zyra,Zyra,Ixtal,Kumungu jungles / Ixtal grouping
