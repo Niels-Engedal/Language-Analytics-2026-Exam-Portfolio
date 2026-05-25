@@ -31,6 +31,10 @@ __pycache__/
 !assignment_03/models/*.ngram
 !assignment_03/models/*_diagnostics.json
 
+# Allow committing Assignment 1 data
+!assignment_04/data/processed/
+!assignment_04/data/processed/*.csv
+
 # Keep generated outputs untracked by default
 **/output/**
 **/outputs/**
