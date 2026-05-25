@@ -14,6 +14,10 @@ __pycache__/
 # Default: ignore local datasets/corpora
 **/data/**
 
+# Allow committing Assignment 2 data
+!assignment_02/data/
+!assignment_02/data/*.csv
+
 # Allow committing Assignment 3 voice-line datasets for reproducibility
 !assignment_03/data/
 !assignment_03/data/*.csv
