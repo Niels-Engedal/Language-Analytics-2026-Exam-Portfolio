@@ -1,9 +1,43 @@
-*.venv
-*.env
-*output
-*outputs
-*out
-*data
-*.DS_Store
-*models
-*__pycache__
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Default: ignore local datasets/corpora
+**/data/**
+
+# Allow committing Assignment 3 voice-line datasets for reproducibility
+!assignment_03/data/
+!assignment_03/data/*.csv
+
+# Optional: allow committing the trained Assignment 3 n-gram models
+!assignment_03/models/
+!assignment_03/models/*.ngram
+!assignment_03/models/*_diagnostics.json
+
+# Keep generated outputs untracked by default
+**/output/**
+**/outputs/**
+**/out/**
+
+# --- Optional reproducibility whitelists (comment in if needed) ---
+#
+# Assignment 4: small public metadata inputs (keep the Webis zip ignored)
+# !assignment_04/data/raw/
+# !assignment_04/data/raw/storyseeker_data.csv
+# !assignment_04/data/raw/subreddit_categories.csv
+#
+# Assignment 5: keep outputs ignored by default; uncomment if you want to
+# commit prepared annotation items (not the raw scraped pages)
+# !assignment_05/outputs/
+# !assignment_05/outputs/llm_annotation/
+# !assignment_05/outputs/llm_annotation/items/
+# !assignment_05/outputs/llm_annotation/items/**

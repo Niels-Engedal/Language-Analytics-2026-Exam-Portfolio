@@ -1,0 +1,20 @@
+{
+  "raw": {
+    "total_voicelines": 45377,
+    "unique_champions": 167,
+    "unique_skins": 506,
+    "unique_skinlines": 166,
+    "unique_regions": 15,
+    "unique_sections": 522,
+    "unique_universes": 4
+  },
+  "model": {
+    "quotes_loaded": 45345,
+    "vocab_size": 14903,
+    "champions_in_model": 167,
+    "skins_in_model": 506,
+    "skinlines_in_model": 165,
+    "regions_in_model": 14,
+    "universes_in_model": 3
+  }
+}
