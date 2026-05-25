@@ -1,0 +1,141 @@
+{
+  "codebook_name": "patch_note_communicative_function_codebook_v2",
+  "prompt_version": "v2_controlled_context_hybrid_segmentation",
+  "description": "Communicative-function codebook for official live-service game patch notes. The LLM is used as a coding instrument. It labels a target text while receiving limited, explicit local context.",
+  "unit_of_analysis": "One target text item. Target items are produced by deterministic segmentation: stat/list rows stay intact, headings become context, and long prose blocks are split into sentence-level or short paragraph-level targets. Only target_text receives a label and only target_text words are counted in aggregation.",
+  "context_policy": "The model may use section_heading, context_before, and context_after only to understand the target_text. It must not label the context itself.",
+  "main_metrics": {
+    "change_documentation": {
+      "label": "Change documentation",
+      "labels": ["change_specification", "corrective_maintenance"],
+      "description": "Text that records what changed, what was added, removed, adjusted, or fixed."
+    },
+    "developer_intent_communication": {
+      "label": "Developer-intent communication",
+      "labels": ["design_rationale", "audience_engagement", "future_monitoring"],
+      "description": "Text that makes developer reasoning, audience relationship, or future monitoring visible."
+    },
+    "other_context": {
+      "label": "Other/context",
+      "labels": ["promotional_context", "non_substantive"],
+      "description": "Text retained for auditability but excluded from the two main metrics."
+    }
+  },
+  "global_instructions": [
+    "Label only the target_text field.",
+    "Use context_before, context_after, and section_heading only to disambiguate the target_text.",
+    "Do not label the context fields themselves.",
+    "Do not infer internal developer intent beyond what is visibly communicated in the text.",
+    "Choose exactly one primary_label from the codebook.",
+    "Use secondary_labels only if a second communicative function is clearly present in target_text.",
+    "If the target is only a heading, navigation fragment, isolated name, or unclear fragment, use non_substantive.",
+    "Return strict JSON only."
+  ],
+  "labels": {
+    "change_specification": {
+      "label": "Change specification",
+      "order": 10,
+      "description": "The target specifies what changed, was added, removed, adjusted, enabled, disabled, restricted, or reworked. This includes numerical stat rows, gameplay rules, system changes, feature changes, policy restrictions, and compact changelog bullets.",
+      "positive_examples": [
+        "Attack Speed: 35% → 33%",
+        "Maximum party size: 2 players → 4 players",
+        "Third-party sites may not share augment win rates"
+      ],
+      "negative_examples": [
+        "We want this item to better serve fighters",
+        "We will keep an eye on how this lands",
+        "Fixed a bug where the tooltip showed the wrong value"
+      ]
+    },
+    "corrective_maintenance": {
+      "label": "Corrective maintenance",
+      "order": 20,
+      "description": "The target describes fixing a bug, crash, exploit, typo, tooltip, visual issue, audio issue, UI issue, or other unintended behavior.",
+      "positive_examples": [
+        "Fixed a bug where the ability sometimes failed to cast",
+        "Corrected a tooltip that displayed the wrong damage value",
+        "Resolved a crash that could occur when loading into a match"
+      ],
+      "negative_examples": [
+        "Damage: 60 → 70",
+        "We are changing this because it was too frustrating",
+        "New skins will be available this week"
+      ]
+    },
+    "design_rationale": {
+      "label": "Design rationale",
+      "order": 30,
+      "description": "The target explains why a change was made, what problem it addresses, what design goal it serves, what tradeoff is being made, or what effect the developers expect.",
+      "positive_examples": [
+        "We want this rune to be a riskier late-game option",
+        "This should preserve the champion's identity while reducing burst",
+        "Our goal is to make Arena encourage experimentation rather than fixed scripts"
+      ],
+      "negative_examples": [
+        "Cooldown: 12 → 10 seconds",
+        "Fixed a bug where the item triggered twice",
+        "Prestige skin available June 12"
+      ]
+    },
+    "audience_engagement": {
+      "label": "Audience engagement",
+      "order": 40,
+      "description": "The target directly addresses players, readers, the community, partners, testers, feedback, reports, PBE, survey responses, or shared expectations. Mentions of players as in-game actors do not count unless the text is engaging the audience or their feedback.",
+      "positive_examples": [
+        "Thanks for all the feedback on this change",
+        "We know many of you have been asking for this",
+        "We want to make sure partners are aware of this policy"
+      ],
+      "negative_examples": [
+        "Players gain 20 gold on takedown",
+        "This champion has many expert players",
+        "Attack Speed: 35% → 33%"
+      ]
+    },
+    "future_monitoring": {
+      "label": "Future monitoring",
+      "order": 50,
+      "description": "The target frames a change as provisional, experimental, or subject to future monitoring, iteration, follow-up, tuning, or later communication.",
+      "positive_examples": [
+        "We will be keeping a close eye on how the meta develops",
+        "We may make further adjustments in a future patch",
+        "We'll monitor this change and follow up if needed"
+      ],
+      "negative_examples": [
+        "Damage: 20 → 25",
+        "We changed this to improve early lane clarity",
+        "Fixed a bug where the item could be duplicated"
+      ]
+    },
+    "promotional_context": {
+      "label": "Promotional/contextual framing",
+      "order": 60,
+      "description": "The target promotes or frames events, skins, battle passes, cosmetics, esports, lore, marketing beats, external videos/blogs, or other non-balance context.",
+      "positive_examples": [
+        "New skins will be available on July 31",
+        "Welcome to our summer event",
+        "Watch the full Dev Update for more details"
+      ],
+      "negative_examples": [
+        "Q damage decreased",
+        "We are changing this because it was unhealthy",
+        "Fixed a tooltip issue"
+      ]
+    },
+    "non_substantive": {
+      "label": "Non-substantive/unclear",
+      "order": 90,
+      "description": "The target is a heading, isolated name, navigation text, repeated title, link fragment, table artifact, or too unclear to classify substantively.",
+      "positive_examples": [
+        "Bugfixes & QoL Changes",
+        "Trinity Force",
+        "Read more here"
+      ],
+      "negative_examples": [
+        "Attack Speed: 35% → 33%",
+        "Fixed a bug where the tooltip was wrong",
+        "We will monitor this change closely"
+      ]
+    }
+  }
+}

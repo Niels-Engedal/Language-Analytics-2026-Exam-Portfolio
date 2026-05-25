@@ -1,0 +1,5 @@
+matplotlib==3.10.9
+numpy==2.4.6
+pandas==3.0.3
+scikit_learn==1.8.0
+turftopic==0.25.2

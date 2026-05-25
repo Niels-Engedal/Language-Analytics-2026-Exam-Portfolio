@@ -1,0 +1,20 @@
+{
+	"models_path": "models",
+	"models": ["lol_voice_model_n2", "lol_voice_model_n3", "lol_voice_model_n4", "lol_voice_model_n5"],
+    "regions": ["Noxus", "Ionia"],
+	"seeds": ["I", "war", "Hello"],
+	"tokens": [50],
+	"top_k": [8],
+	"temperature": [0.5, 2.0],
+	"backoff": true,
+	"backoff_alpha": 0.4,
+	"backoff_mode": "interpolate",
+	"sentence_mode": [false],
+	"deduplicate": [true],
+	"random_seed": 1,
+	"limit": 100,
+	"out_dir": "out/batch_region_assignment",
+	"save_outputs": true,
+	"make_plots": true,
+	"plot_group_by": ["model_name", "region", "temperature", "seeds"]
+}

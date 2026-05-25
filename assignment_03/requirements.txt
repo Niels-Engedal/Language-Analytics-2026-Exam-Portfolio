@@ -1,0 +1,14 @@
+pandas
+nltk
+numpy
+requests
+matplotlib
+plotly
+#ipykernel
+seaborn
+#spacy
+datasets
+#ipywidgets
+scikit-learn
+tqdm
+argparse
