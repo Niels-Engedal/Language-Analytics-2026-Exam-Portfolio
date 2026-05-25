@@ -204,10 +204,9 @@ python src/main.py --launch-topicwizard
 **Folder:** `assignment_05/`
 
 ### Project summary
+This project gathers patch notes from Dota 2 and League of Legends official webpages and analyses them for communicative functions via a Large Language Model (LLM) API call and codebook into seven categories, which are then combined into two main metrics: `Change documentation` and `Developer-intent communication`. 
 
-This pipeline replaces the earlier marker/keyness-first workflow for Assignment 5. It does **not** scrape anything. It starts from existing scraper outputs and builds a controlled LLM annotation dataset for official League of Legends and Dota 2 patch notes.
-
-The core rule is that each target text unit is annotated individually, and any local context given to the model is explicit and fixed (neighbouring visible units in page order).
+This assignment repo does not contain the data already as it is too large for git, so a long scraping procedure has to be run unfortunately.
 
 ### Methods (short)
 
