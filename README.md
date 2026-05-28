@@ -167,7 +167,7 @@ python src/generate.py --batch-config src/batch_config.json
 
 ### Project summary
 
-This is my final Language Analytics assignment where I use topic modelling on the StorySeeker dataset.
+This is my final Language Analytics assignment of the pre-assigned ones, where I use topic modelling on the StorySeeker dataset.
 
 The goal is simple: take the StorySeeker story/no-story annotations, join them back to the original Reddit text, train a topic model, and then inspect how the topics relate to the narrativity labels.
 
